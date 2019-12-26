@@ -21,6 +21,46 @@ app.get('/', (req, res) => {
     res.send('Hello, world!')
 })
 
+app.get('/card', (req, res) => {
+    res
+    .json(cards)
+})
+
+app.get('/card/:id', (req, res) => {
+    const { id } = req.params
+    const card = cards.find(c => c.id == id)
+
+    //make sure we found a card
+    if (!card) {
+        logger.error(`Card with id ${id} not found.`);
+        return res
+          .status(404)
+          .send('Card Not Found');
+      }
+    
+      res.json(card);
+})
+
+app.get('/list', (req, res) => {
+    res
+        .json(lists)
+})
+
+app.get('/list/:id', (req, res) => {
+    const { id } = req.params;
+    const list = lists.find(li => li.id == id);
+  
+    // make sure we found a list
+    if (!list) {
+      logger.error(`List with id ${id} not found.`);
+      return res
+        .status(404)
+        .send('List Not Found');
+    }
+  
+    res.json(list);
+  });
+
 //set up winston
 const logger = winston.createLogger({
     level: 'info',
@@ -45,7 +85,7 @@ const cards = [
     }
 ]
 
-const list = [
+const lists = [
     {
         id: 1,
         header: 'List One',

@@ -1,2 +1,5 @@
 {"message":"Unauthorized request to path: /favicon.ico","level":"error"}
 {"message":"Unauthorized request to path: /favicon.ico","level":"error"}
+{"message":"Unauthorized request to path: /card/1","level":"error"}
+{"message":"Card with id 2 not found.","level":"error"}
+{"message":"List with id 2 not found.","level":"error"}
