@@ -32,3 +32,11 @@
 {"message":"Card with id id=4e247324-752e-416b-ba82-c4a976f215f8 not found.","level":"error"}
 {"message":"Card with id 4e247324-752e-416b-ba82-c4a976f215f8 deleted.","level":"info"}
 {"message":"List with id 136a0e97-f0f1-4850-9aa0-a8c4a4d53016 deleted.","level":"info"}
+{"message":"Card with id 396a7e2f-b1f0-4f6c-9781-a50be3d98009 created","level":"info"}
+{"message":"List with id 874577b9-250f-4291-9e18-081332e8154b created","level":"info"}
+{"message":"Card with id 396a7e2f-b1f0-4f6c-9781-a50be3d98009 deleted.","level":"info"}
+{"message":"Unauthorized request to path: /list/874577b9-250f-4291-9e18-081332e8154b","level":"error"}
+{"message":"List with id 874577b9-250f-4291-9e18-081332e8154b not found.","level":"error"}
+{"message":"List with id 874577b9-250f-4291-9e18-081332e8154b not found.","level":"error"}
+{"message":"List with id 060b64dc-a7ae-4658-ade4-ad288f485244 created","level":"info"}
+{"message":"List with id 060b64dc-a7ae-4658-ade4-ad288f485244 deleted.","level":"info"}
