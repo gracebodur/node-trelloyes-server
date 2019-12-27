@@ -3,3 +3,27 @@
 {"message":"Unauthorized request to path: /card/1","level":"error"}
 {"message":"Card with id 2 not found.","level":"error"}
 {"message":"List with id 2 not found.","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Header is required","level":"error"}
+{"message":"Header is required","level":"error"}
+{"message":"Header is required","level":"error"}
+{"message":"Header is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Card with id 65ad268f-18dd-489d-a790-3ad982a16dca created","level":"info"}
+{"message":"Card with id 2 not found in cards array.","level":"error"}
+{"message":"Header is required","level":"error"}
+{"message":"Header is required","level":"error"}
+{"message":"List with id 8c13b74b-e88a-4b05-9c27-51d3eb9901ed created","level":"info"}

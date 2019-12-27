@@ -16,7 +16,7 @@ const morganOption = (NODE_ENV === 'production') ?
 app.use(morgan(morganOption))
 app.use(cors())
 app.use(helmet())
-app.use(express.json)
+app.use(express.json())
 
 
 //GET endpoints
